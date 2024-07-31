@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro JS</title>
+    //title= título da página
+    <style>
+        body {font: 12pt Arial;}
+        button {font-size: 12pt; padding: 10px;}
+        </style>
+        //button= tamanho do botão e fonte
+</head>
+<body>
+    <h1>Informando Nome no JavaScript</h1>
+    // Nome para aparecer na página inicial
+<button onclick="inicio()">Clique para começar</button>
+//indicar que a função button serve para clicar, e oque está escrito dentro do botão
+<script>
+    function inicio(){
+        let nome = window.prompt('Qual é o seu nome? ')
+        window.alert(`Olá, ${nome}! é um prazer te conhecer!`)
+    }
+</script>
+//serve para aparecer como"janela" dentro da página, onde declara a várialvel necessária
+</body>
+</html>
